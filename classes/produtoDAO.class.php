@@ -14,19 +14,13 @@ class ProdutoDAO{
 	}
 
 	public function adicionarProduto($produto){
-		$sql = "INSERT INTO produtos(nome,descricao,preco) VALUES(???)";
-
+		$sql = "INSERT INTO produtos(nome_produto,desc_produto,preco) VALUES(?,?,?)";
 		$stmt = $this->conn->prepare($sql);
-		$stmt->bindValue( 1, $produto->getNome() );
-		$stmt->bindValue( 2, $produto->getDescricao() );
-		$stmt->bindValue( 3, $produto->getPreco() );
+                
+		$stmt->bindParam( 1, $produto->getNome() );
+		$stmt->bindParam( 2, $produto->getDescricao() );
+		$stmt->bindParam( 3, $produto->getPreco() );
 
-		// Execute
-		if($stmt->execute())
-			return true;
-		else
-			return false;
+		return $stmt->execute();
 	}
-
-
 }

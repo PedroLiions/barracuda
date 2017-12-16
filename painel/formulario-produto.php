@@ -7,7 +7,7 @@
     
     <hr>
     
-    <form action="">
+    <form action="../php/adicionar-produto.php" method="post">
         <div class="field">
             <label for="nome" class="label">Nome</label>
             <div class="control">
@@ -32,14 +32,14 @@
         <button type="submit" class="button is-large is-danger">
             <span>Cancelar</span>
             <span class="icon">
-                <i class="fa fa-arrow-right"></i>
+                <i class="fa fa-times"></i>
             </span>
         </button>
         
         <button type="submit" class="button is-large is-success">
             <span>Cadastrar produto</span>
             <span class="icon">
-                <i class="fa fa-arrow-right"> </i>
+                <i class="fa fa-check"> </i>
             </span>
         </button>
         

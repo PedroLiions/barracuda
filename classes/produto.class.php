@@ -7,6 +7,12 @@ class Produto{
 	private $fotos;
 	private $preco;
 
+        public function __construct($nome, $descricao, $preco){
+            $this->nome = $nome;
+            $this->descricao = $descricao;
+            $this->preco = $preco;
+        }
+        
 	public function setId($id){
 		$this->id=$id;
 	}
@@ -23,7 +29,6 @@ class Produto{
 	public function setFotos($fotos){
 		$this->fotos=$fotos;
 	}
-
 
 	public function setPreco($preco){
 		$this->preco=$preco;

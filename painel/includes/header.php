@@ -21,8 +21,9 @@ endif;
         <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.3/css/froala_style.min.css" rel="stylesheet" type="text/css" />
 
 </head>
-<body>
-    <br>
+<body>    
+    <?php require_once("alerts.php") ?>    
+    
     <div class="container is-fluid">
         <div class="columns">
             <!-- LEFT BAR / MENU LEFT  -->
@@ -36,7 +37,10 @@ endif;
                         <li><a href="#">Hero</a></li>
                         <li><a href="#">Video marketing</a></li>
                         <li><a href="#">Footer</a></li>
-                        <li><a href="#">Categorias</a></li>
+                    </ul>
+                    <p class="menu-label">Produtos</p>
+                    <ul class="menu-list">
+                        <li><a href="#"></a></li>
                     </ul>
                 </div>
 
