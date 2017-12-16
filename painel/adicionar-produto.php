@@ -39,7 +39,7 @@
         <button type="submit" class="button is-large is-success">
             <span>Cadastrar produto</span>
             <span class="icon">
-                <i class="fa fa-arrow-right"></i>
+                <i class="fa fa-arrow-right"> </i>
             </span>
         </button>
         
