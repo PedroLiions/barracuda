@@ -1,0 +1,20 @@
+{
+  "name": "Barracuda Sistema",
+  "description": "Sistema de CRUD de adição de produtos",
+  "main": "",
+  "authors": [
+    "Pedro Lima(Logos e Artes)"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bulma": "^0.6.1"
+  }
+}
