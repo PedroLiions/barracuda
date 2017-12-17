@@ -11,7 +11,7 @@ print_r($produto);
 echo "</pre>";
 
 $pDAO = new ProdutoDAO();
-$pDAO->adicionarProduto($produto);
+
 if($pDAO->adicionarProduto($produto)):
     header('location:../painel/formulario-produto.php?success=adicionar');
 else:

@@ -14,7 +14,7 @@ class ProdutoDAO{
 	}
 
 	public function adicionarProduto($produto){
-		$sql = "INSERT INTO produtos(nome_produto,desc_produto,preco) VALUES(?,?,?)";
+		$sql = "INSERT INTO produtos(nome_produto,desc_produto,preco_produto) VALUES(?,?,?)";
 		$stmt = $this->conn->prepare($sql);
                 
 		$stmt->bindParam( 1, $produto->getNome() );
