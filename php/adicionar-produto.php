@@ -13,7 +13,7 @@ echo "</pre>";
 $pDAO = new ProdutoDAO();
 $pDAO->adicionarProduto($produto);
 if($pDAO->adicionarProduto($produto)):
-    header('location:../painel/formulario-adicionar-produto.php?success=adicionar');
+    header('location:../painel/formulario-produto.php?success=adicionar');
 else:
-    header("location:../painel/formulario-adicionar-produto.php?error=adicionar");
+    header("location:../painel/formulario-produto.php?error=adicionar");
 endif;

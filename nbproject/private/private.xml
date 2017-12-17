@@ -3,9 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/xampp/htdocs/pdo/classes/conexao.class.php</file>
+            <file>file:/C:/xampp/htdocs/pdo/painel/formulario-produto.php</file>
+            <file>file:/C:/xampp/htdocs/pdo/php/adicionar-produto.php</file>
+            <file>file:/C:/xampp/htdocs/pdo/classes/produto.class.php</file>
+            <file>file:/C:/xampp/htdocs/pdo/painel/includes/alerts.php</file>
             <file>file:/C:/xampp/htdocs/pdo/painel/includes/header.php</file>
             <file>file:/C:/xampp/htdocs/pdo/php/realizarlogin.php</file>
-            <file>file:/C:/xampp/htdocs/pdo/painel/index.php</file>
+            <file>file:/C:/xampp/htdocs/pdo/classes/produtoDAO.class.php</file>
         </group>
     </open-files>
 </project-private>

@@ -19,7 +19,8 @@ endif;
         <!-- Include Editor style. -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.3/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.3/css/froala_style.min.css" rel="stylesheet" type="text/css" />
-
+        <!-- JQUERY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>    
     <?php require_once("alerts.php") ?>    
@@ -40,7 +41,7 @@ endif;
                     </ul>
                     <p class="menu-label">Produtos</p>
                     <ul class="menu-list">
-                        <li><a href="#"></a></li>
+                        <li><a href="formulario-produto.php">Adicionar produto</a></li>
                     </ul>
                 </div>
 
